@@ -1,7 +1,7 @@
 public class Funcionario {
     String nome;
     String cargo;
-    float salario;
+    double salario;
     
     public Funcionario(){
         salario = 1100;
@@ -13,7 +13,7 @@ public class Funcionario {
         System.out.println(String.format("Salario: %.2f", salario));
     }
 
-    public float getSalario(){
+    public double getSalario(){
         return salario;
     }
 }

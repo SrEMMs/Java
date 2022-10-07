@@ -6,7 +6,7 @@ public class Principal {
         funcionario.salario = 5620;
 
         funcionario.imprimir();
-        float salario_erick = funcionario.getSalario();
+        double salario_erick = funcionario.getSalario();
         System.out.println("Salario do Erick: " + salario_erick);
 
         Funcionario funcionario2 = new Funcionario();
@@ -14,7 +14,7 @@ public class Principal {
         funcionario2.cargo = "Dev. Backend Python";
 
         funcionario2.imprimir();
-        float salario_salma = funcionario.getSalario();
+        double salario_salma = funcionario.getSalario();
         System.out.println("Salario do Erick: " + salario_salma);
     }
 }
