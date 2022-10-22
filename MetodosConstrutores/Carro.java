@@ -15,7 +15,7 @@ class Carro {
     }
 
     Carro(int id, String modelo){
-        this.id = id;
+        this(id);
         this.modelo = modelo;
     }
 
