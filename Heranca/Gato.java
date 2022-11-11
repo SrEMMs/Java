@@ -6,4 +6,9 @@ class Gato extends Animal{
         //super.setRaca("Gato");
         super.raca = "Gato";
     }
+
+    public void imprimir(){
+        super.imprimir();
+        System.out.println("Tipo: " + tipo);
+    }
 }
